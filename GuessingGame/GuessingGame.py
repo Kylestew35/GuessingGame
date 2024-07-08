@@ -26,7 +26,7 @@ def main():
         guessing_game()
         play_again = input("Would you like to play again? (y/n): ")
     if play_again.lower() == "n":
-        Print("Bye!")
+        print("Bye!")
 
 if __name__ == "__main__":
     main()
